@@ -1,0 +1,9 @@
+account,ticker,security_name,quantity,price,market_value,asset_class,as_of_date
+Taxable Brokerage,XYZ,XYZ Corp,8500,101.20,860200.00,Equities,2026-06-20
+Taxable Brokerage,ABC,ABC Inc,1200,85.50,102600.00,Equities,2026-06-20
+Taxable Brokerage,BND,US Aggregate Bond ETF,4000,72.10,288400.00,Fixed Income,2026-06-20
+Taxable Brokerage,CASH,Cash & Equivalents,1,450000.00,450000.00,Cash,2026-06-20
+IRA,SPY,S&P 500 ETF,2200,520.00,1144000.00,Equities,2026-06-20
+IRA,AGG,iShares Core US Aggregate Bond,3500,98.00,343000.00,Fixed Income,2026-06-20
+401(k),VT,Vanguard Total World Stock,1800,110.00,198000.00,Equities,2026-06-20
+401(k),BND,US Aggregate Bond ETF,1500,72.10,108150.00,Fixed Income,2026-06-20

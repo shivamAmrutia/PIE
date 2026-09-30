@@ -1,0 +1,49 @@
+spring:
+  application:
+    name: pie-backend
+  datasource:
+    url: jdbc:postgresql://localhost:5432/pie
+    username: pie
+    password: pie
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+    properties:
+      hibernate:
+        jdbc:
+          time_zone: UTC
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+
+server:
+  port: 8080
+
+pie:
+  jwt:
+    secret: "pie-dev-secret-change-me-must-be-at-least-256-bits-long!!"
+    expiration-ms: 86400000
+  storage:
+    upload-dir: ../data/uploads
+  cors:
+    allowed-origins: http://localhost:3000
+  neo4j:
+    uri: bolt://localhost:7687
+    username: neo4j
+    password: piepassword
+  embedding:
+    dimensions: 384
+  ask:
+    top-k: 6
+    disclaimer: "PIE surfaces information and evidence. The advisor remains responsible for interpretation and decisions. This is not investment, tax, or legal advice."
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+logging:
+  level:
+    com.pie: INFO

@@ -1,0 +1,26 @@
+# PIE
+target/
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+*.log
+.env
+.env.local
+!.env.example
+
+# Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploads / local data
+data/uploads/
+*.class

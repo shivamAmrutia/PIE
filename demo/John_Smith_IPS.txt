@@ -1,0 +1,22 @@
+# John Smith — Synthetic IPS (excerpt for demo)
+
+Client: John Smith
+Document date: June 14, 2026
+Document type: Investment Policy Statement
+
+## Goals
+- Retirement at age 62
+- Target retirement income: $180,000 per year
+- Education funding for dependents
+
+## Target Allocation
+- Equities: 60% (range 50–70%)
+- Fixed Income: 30% (range 20–40%)
+- Cash: 10% (range 5–15%)
+
+## Concentration Limits
+- Maximum allocation to an individual security: 10% of any single account or of the taxable portfolio
+- Maximum allocation to a single issuer: 15%
+
+## Notes
+This is synthetic demo content for PIE. Not real client data.
